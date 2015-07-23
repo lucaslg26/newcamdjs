@@ -1,0 +1,24 @@
+{
+  "name": "newcamdjs",
+  "version": "0.0.1",
+  "description": "Newcamd protocol in Nodejs",
+  "main": "newcamd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslg26/newcamdjs.git"
+  },
+  "keywords": [
+    "newcamd",
+    "protocol",
+    "nodejs"
+  ],
+  "author": "Lucas Vasconcelos",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lucaslg26/newcamdjs/issues"
+  },
+  "homepage": "https://github.com/lucaslg26/newcamdjs#readme"
+}
