@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/lucaslg26/newcamdjs/issues"
   },
-  "homepage": "https://github.com/lucaslg26/newcamdjs#readme"
+  "homepage": "https://github.com/lucaslg26/newcamdjs#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "net": "^1.0.2"
+  }
 }

@@ -44,7 +44,7 @@ DES.desKeyParityAdj = function (key, len) {
 
 
 DES.xorKey = function (userKey, randomKey) {
-    /* Xor the random key server key with user key */
+    /* Xor the random server key with user key */
     var xored = new Buffer(14);
     for (var i = 0; i < 14; i++) {
         xored[i] = userKey[i] ^ randomKey[i];

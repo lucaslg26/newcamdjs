@@ -1,4 +1,4 @@
-var crypto = require('crypto'); /*  lib for DES algorithm used in teh Newcamd protocol */
+var crypto = require('crypto'); /*  lib for DES algorithm used in the Newcamd protocol */
 var newcamd = require('net').Socket(); /* lib for TCP connections */
 var DES = require('./DES');
 
