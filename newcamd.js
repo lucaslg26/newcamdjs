@@ -8,7 +8,7 @@ var userKey = new Buffer('0102030405090708091011121314', 'hex');
 var initData = new Buffer(14).fill(0);
 var loginKey = new Buffer(16).fill(0);
 
-newcamd.connect(15000, 'csaz.sytes.net');
+newcamd.connect(15000, 'SERVER URL');
 newcamd.on('data', function (msg) {
     initData = msg;
     loginKey = DES.getLoginKey(userKey, initData);
